@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html forms</title>
+</head>
+    <body>
+        <header>
+        <h2>HTML FORMS</h2>
+        </header>
+        <section>
+            <form action="submit_form.js">
+                <div>
+                    <label for="first_name">First Name</label>
+                    <input type="text" nbame="First Name" id="first_name" placeholder="John">
+                </div><br>
+                <div>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="Last Name" placeholder="Doe">
+                </div><br>
+                <div>
+                        <label for="others">Other Name</label>
+                <input type="text" id="others" name="Othername">
+                </div><br>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="Email" required>
+                </div><br>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="Password" required placeholder="choose a password">
+                </div><br>
+                <div>
+                    <label for="number">Phone Number</label>
+                    <input type="phone number" id="number" required placeholder="08085..">
+                </div><br>
+                <div>
+                    <label for="gender">Gender</label>
+                    <select name="gender" id="gender">
+                        <option value="">--select your gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="others">Others</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label for="qualification">Highest Qualification</label>
+                    <select name="Qualification" id="qualification">
+                        <option value="">--select your highest qualification</option>
+                        <option value="O'level">O'level</option>
+                        <option value="ond">OND</option>
+                        <option value="hnd">HND</option>
+                        <option value="bsc">Bachelors</option>
+                        <option value="masters">Masters</option>
+                        <option value="phd">Phd</option>
+                    </select>
+                </div><br>
+                <div>
+                    <label for="file">Upload your Certificates</label>
+                    <input type="file" name="File" id="file" multiple> 
+                </div><br>
+                <div>
+                    <label for="language_proficiency">Proficiency in English</label>
+                    <input type="range" name="Language proficiency" id="language_proficiency" min="0" max="10">
+                </div><br>
+                <div>
+                    <label for="date">Date Obtained</label>
+                    <input type="date" name="qualification_date" id="date" required >
+                </div><br>
+
+                <div>
+                    <label for="">Select your age</label>
+                    <label><input type="radio" value="0-25" name="age">0-25</label>
+                    <label ><input type="radio" value="26-50" name="age">26-50</label>
+                    <label><input type="radio" value="51+" name="age">51+</label>
+                </div><br>
+                <div>
+                    <label for="colors">Color Preference</label>
+                    <input type="color" name="color" id="color">
+                </div><br>
+                <div>
+                    <label for="">Choose your Interests</label><br><br>
+                    <label><input type="checkbox" name="Interests" value="sports">Sports</label>
+                    <label><input type="checkbox" name="Intrests" value="movies">Movies</label>
+                    <label><input type="checkbox" name="Interests" value="documentary">Documentary</label>
+                    <label><input type="checkbox" name="Interests" value="others">Others</label>
+                    
+                </div><br>
+                <div>
+                    <label for="bio">Your bio:</label><br>
+                    <textarea name="message" id="message" cols="30px" rows="10px">About you..</textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div><br>
+                <div>
+                    <input type="hidden" id="customerId" value="2344" name="customerId">
+                </div>
+
+
+            </form>
+    </section>
+    <footer>Created by Shaamela!</footer>
+    
+    </body>
+</html>
